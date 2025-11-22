@@ -1,0 +1,160 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					}
+				],
+				"name": "ageAccess",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "N",
+						"type": "uint256"
+					}
+				],
+				"name": "evenNumbers",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "sum",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "grade",
+						"type": "uint256"
+					}
+				],
+				"name": "gradeEvaluator",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "speed",
+						"type": "uint256"
+					}
+				],
+				"name": "speedChecker",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "N",
+						"type": "uint256"
+					}
+				],
+				"name": "sumUp",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "sum",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "celsius",
+						"type": "int256"
+					}
+				],
+				"name": "tempCelsiusChecker",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Day5_Activities.sol": "Day5"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Day5_Activities.sol": {
+			"keccak256": "0x33f1fe4c3a66da3bf16715bd1590da5454a3193dc8c48ca7c6c51875320b905b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://913ceb3440f44051e348ca53adb68b3af3bc2f052af5c3a46920f2bbd3e005db",
+				"dweb:/ipfs/QmXuQGnX2isVjbxXMGUbFf5kmPLSN1yjGCth259TiNfQX4"
+			]
+		}
+	},
+	"version": 1
+}

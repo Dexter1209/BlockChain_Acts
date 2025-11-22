@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "voter",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "proposalId",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "bool",
+						"name": "choice",
+						"type": "bool"
+					}
+				],
+				"name": "VoteCasted",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_proposalId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_choice",
+						"type": "bool"
+					}
+				],
+				"name": "vote",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Day7_Activities.sol": "Day7_VotingTracker"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Day7_Activities.sol": {
+			"keccak256": "0x715b9e772ef21b09d09c8f441dcc7777901cf1edc3d876435940c5b31ecd7ada",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e5df97e09125ead12574ad34408cc4c822a0a5c0e93b693f7b19d7b43d57f234",
+				"dweb:/ipfs/QmVSka11YiskgSeWpQYnHZ8JY7rd6h4rZZb7zszQZWMb4o"
+			]
+		}
+	},
+	"version": 1
+}

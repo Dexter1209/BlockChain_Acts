@@ -1,0 +1,132 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "eth",
+						"type": "uint256"
+					}
+				],
+				"name": "ethConvert",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "hour",
+						"type": "uint256"
+					}
+				],
+				"name": "hourConvert",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "num2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "num3",
+						"type": "uint256"
+					}
+				],
+				"name": "numAverage",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "celsius",
+						"type": "uint256"
+					}
+				],
+				"name": "tempConvert",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Day4_Activities.sol": "Day4"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Day4_Activities.sol": {
+			"keccak256": "0x829fb109b097f798591da04cd21fe59cb3e76e746cbb12bd1e78a8e6d6be6dbb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3b6aebf033ac6e0dd9e6c51cf6323069bee89ae832c60cebbc45004a8e2c1cd6",
+				"dweb:/ipfs/QmTWektCfwLPyN5ojuzN8CfmGRqE8PbZ8ChxbKwN5qzRop"
+			]
+		}
+	},
+	"version": 1
+}
