@@ -1,0 +1,94 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "hasTicket",
+						"type": "bool"
+					}
+				],
+				"name": "andExample",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "hasCoupon",
+						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "isVip",
+						"type": "bool"
+					}
+				],
+				"name": "orExample",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/LogicalOperator.sol": "LogicalOperators"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/LogicalOperator.sol": {
+			"keccak256": "0xcc3c29e6ddca3bb08caeb0dce00c24a05ad9cda8a47b81a9e30a508106b2eb98",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://26b420608afc0ff127db8eeab2cab90a6cf3755039bacfbf20ae8fd25f2e0811",
+				"dweb:/ipfs/QmcNKwNCCYZBj2gGftUW9TyvcsDNk3nGeHPJcePNUfEqiG"
+			]
+		}
+	},
+	"version": 1
+}

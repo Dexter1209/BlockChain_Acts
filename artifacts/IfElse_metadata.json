@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "today",
+						"type": "string"
+					}
+				],
+				"name": "dayPlan",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/IfElse.sol": "IfElse"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/IfElse.sol": {
+			"keccak256": "0x9c31f90646d42a1ef180d3e08f057c80c4c6c3cfef5204680ac48b6b69d2b51e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1342bbc20f28c75bc2ade720527efeddb4648ae5c1c58ec7545561e79398db14",
+				"dweb:/ipfs/QmS4QLx7ZCu9aviuZtoqosC2RmbhDk1TLJZ4BdTHPBa18n"
+			]
+		}
+	},
+	"version": 1
+}
