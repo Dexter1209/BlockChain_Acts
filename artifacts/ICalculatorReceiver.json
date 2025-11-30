@@ -1,0 +1,144 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"sepolia:11155111": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "",
+			"opcodes": "",
+			"sourceMap": ""
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "",
+			"opcodes": "",
+			"sourceMap": ""
+		},
+		"gasEstimates": null,
+		"methodIdentifiers": {
+			"getDifference(uint256,uint256)": "4c7c77fc",
+			"getProduct(uint256,uint256)": "24f346ab",
+			"getQuotient(uint256,uint256)": "88dffe9b",
+			"getSum(uint256,uint256)": "8e86b125"
+		}
+	},
+	"abi": [
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "_num1",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "_num2",
+					"type": "uint256"
+				}
+			],
+			"name": "getDifference",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "pure",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "_num1",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "_num2",
+					"type": "uint256"
+				}
+			],
+			"name": "getProduct",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "pure",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "_num1",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "_num2",
+					"type": "uint256"
+				}
+			],
+			"name": "getQuotient",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "pure",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "_num1",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "_num2",
+					"type": "uint256"
+				}
+			],
+			"name": "getSum",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "pure",
+			"type": "function"
+		}
+	]
+}

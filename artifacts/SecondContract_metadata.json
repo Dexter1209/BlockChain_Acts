@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "thirdFunction",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Day9_Activity_3.sol": "SecondContract"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Day9_Activity_3.sol": {
+			"keccak256": "0x0b5ad6398f3f0e7ee8b16776f8474db3d8bb90e1cde040007c3f03e33d4ecc0d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a8a1bf93f77033bc763f87693e32cdc3730e4f38b10b5eb2c5a93c5c4a1ea0e5",
+				"dweb:/ipfs/QmZmk1RWeGQFN3dJVqnogZBA6vNTJea7CRutR7fSvPXhqG"
+			]
+		}
+	},
+	"version": 1
+}
